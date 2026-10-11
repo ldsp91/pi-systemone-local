@@ -1,0 +1,12 @@
+{
+  "name": "pi-systemone-local",
+  "version": "0.1.0",
+  "description": "pi extension registering System One decider (typesafe-system-one classifier) models",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
